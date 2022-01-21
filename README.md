@@ -11,11 +11,9 @@ acordo com o titular informado;</li>
 <li>Foi criado o objeto ContaAplicacao que extend de Conta;</li>
 <li>Na classe conta foi criado o método abastrato gerarRendimento e as contas Poupanca e ContaAplicacao fazem a implementação desse método com as respectivas taxas de remuneração do saldo.</li>
 </dt>
+
 <p></p>
 
-<p>Referência: Mentoria Digital Innovation One https://web.dio.me/</p>
-<p>Mentor: https://github.com/falvojr</p>
-<p>Título Mentoria: Criando um Banco Digital com Java e Orientação a Objetos</p>
 
 <p>Desafio: Considerando nosso conhecimento no domínio bancário, iremos abstrair uma solução Orientada a Objetos em Java. Para isso, vamos interpretar o seguinte cenário: 
 “Um banco oferece aos seus clientes dois tipos de contas (corrente e poupança), as quais possuem as funcionalidades de depósito, saque e transferência 
@@ -37,3 +35,8 @@ classe base. A classe que herda os membros da classe base é chamada de classe d
 Capacidade de um objeto poder ser referenciado de várias formas, ou seja, é capacidade de tratar objetos criados a partir das classes específicas como objetos de uma 
 classe genérica. Cuidado, polimorfismo não quer dizer que o objeto fica se transformando, muito pelo contrário, um objeto nasce de um tipo e morre daquele tipo, o que pode 
 mudar é a maneira como nos referimos a ele.
+
+<p></p>
+<p>Referência: Mentoria Digital Innovation One https://web.dio.me/</p>
+<p>Mentor: https://github.com/falvojr</p>
+<p>Título Mentoria: Criando um Banco Digital com Java e Orientação a Objetos</p>
