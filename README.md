@@ -13,9 +13,9 @@ acordo com o titular informado;</li>
 </dt>
 <p></p>
 
-Referência: Mentoria Digital Innovation One https://web.dio.me/
-Mentor: https://github.com/falvojr
-Título Mentoria: Criando um Banco Digital com Java e Orientação a Objetos
+<p>Referência: Mentoria Digital Innovation One https://web.dio.me/</p>
+<p>Mentor: https://github.com/falvojr</p>
+<p>Título Mentoria: Criando um Banco Digital com Java e Orientação a Objetos</p>
 
 <p>Desafio: Considerando nosso conhecimento no domínio bancário, iremos abstrair uma solução Orientada a Objetos em Java. Para isso, vamos interpretar o seguinte cenário: 
 “Um banco oferece aos seus clientes dois tipos de contas (corrente e poupança), as quais possuem as funcionalidades de depósito, saque e transferência 
