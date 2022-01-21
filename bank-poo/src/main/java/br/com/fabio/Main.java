@@ -40,6 +40,7 @@ public class Main {
 		poupancaPaula.gerarRedimento();
 		aplicacaoPaula.gerarRedimento();
 
+
 		//*********************************************//
 		Banco banco = new Banco();
 		List<Conta> contas = new ArrayList<>();
@@ -54,11 +55,6 @@ public class Main {
 		banco.setContas(contas);
 
 		banco.imprimirExtrato("Venilton");
-
-
-
-
-
 
 	}
 

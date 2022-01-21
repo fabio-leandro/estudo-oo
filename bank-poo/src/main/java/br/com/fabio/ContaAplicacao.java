@@ -1,6 +1,5 @@
 package br.com.fabio;
 
-import java.math.BigDecimal;
 
 public class ContaAplicacao extends Conta{
 
