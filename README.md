@@ -1,16 +1,16 @@
 # Abstração de um banco digital para aplicação de orientação a objetos.
 
+<dt>
 De acordo com o o conhecimento adquirido, foram feitas as seguintes ponderações no projeto proposto:
-A biblioteca lombok para ocultar getters e setters;
-Na classe pai das contas foi adcionado o atributo "tipo" para tipo de conta. Cada objeto filho de conta tem no seu construtor a responsabilidade de definir o valor para 
-tipo de conta;
-Foi tirada da classe Conta a responsabilidade de imprimir o extrato. Foi passada a responsabilidade para a classe Banco que recebe uma lista de contas. Dessa forma tem-se 
+  <li>A biblioteca lombok para ocultar getters e setters;</li>
+<li>Na classe pai das contas foi adcionado o atributo "tipo" para tipo de conta. Cada objeto filho de conta tem no seu construtor a responsabilidade de definir o valor para 
+tipo de conta;</li>
+<li>Foi tirada da classe Conta a responsabilidade de imprimir o extrato. Foi passada a responsabilidade para a classe Banco que recebe uma lista de contas. Dessa forma tem-se 
 o método imprimirExtrato que recebe como parâmetro um titular da conta. Nesse método foi feito um stream na lista de contas e aplicado um filtro para buscar as contas de 
-acordo com o titular informado;
-Foi criado o objeto ContaAplicacao que extend de Conta;
-Na classe conta foi criado o método abastrato gerarRendimento e as contas Poupanca e ContaAplicacao fazem a implementação desse método com as respectivas taxas de remuneração 
-saldo.
-
+acordo com o titular informado;</li>
+<li>Foi criado o objeto ContaAplicacao que extend de Conta;</li>
+<li>Na classe conta foi criado o método abastrato gerarRendimento e as contas Poupanca e ContaAplicacao fazem a implementação desse método com as respectivas taxas de remuneração do saldo.</li>
+</dt>
 
 Desafio: Considerando nosso conhecimento no domínio bancário, iremos abstrair uma solução Orientada a Objetos em Java. Para isso, vamos interpretar o seguinte cenário: 
 “Um banco oferece aos seus clientes dois tipos de contas (corrente e poupança), as quais possuem as funcionalidades de depósito, saque e transferência 
