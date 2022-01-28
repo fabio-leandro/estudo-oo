@@ -13,7 +13,7 @@ acordo com o titular informado;</li>
 </dt>
 
 <h3>Refatoração 28/01/2022</h3>
-<p>Foi criada a Interface Rendimento. Essa interface possibilita que apenas as contas que fornecem o serviço de rendimento implmente o método gerarRendimento.</p>
+<p>Foi criada a Interface Rendimento. Essa interface possibilita que apenas as contas que fornecem o serviço de rendimento implementem o método gerarRendimento.</p>
 
 <p></p>
 
