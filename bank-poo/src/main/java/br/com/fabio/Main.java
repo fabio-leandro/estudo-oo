@@ -11,8 +11,8 @@ public class Main {
 		venilton.setNome("Venilton");
 		
 		Conta cc = new ContaCorrente(venilton);
-		Conta poupanca = new ContaPoupanca(venilton);
-		Conta aplicacao = new ContaAplicacao(venilton);
+		ContaPoupanca poupanca = new ContaPoupanca(venilton);
+		ContaAplicacao aplicacao = new ContaAplicacao(venilton);
 
 		cc.depositar(100);
 		cc.transferir(100, poupanca);
@@ -28,8 +28,8 @@ public class Main {
 		paula.setNome("Paula");
 
 		Conta ccPaula = new ContaCorrente(paula);
-		Conta poupancaPaula = new ContaPoupanca(paula);
-		Conta aplicacaoPaula = new ContaAplicacao(paula);
+		ContaPoupanca poupancaPaula = new ContaPoupanca(paula);
+		ContaAplicacao aplicacaoPaula = new ContaAplicacao(paula);
 
 
 		ccPaula.depositar(300);

@@ -1,6 +1,6 @@
 package br.com.fabio;
 
-public class ContaPoupanca extends Conta{
+public class ContaPoupanca extends Conta implements IRendimento{
 
 	private final static double TAXA_RENDIMENTO = 0.0005;
 

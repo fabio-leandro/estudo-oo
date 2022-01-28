@@ -7,7 +7,5 @@ public class ContaCorrente extends Conta {
 		super.tipo = "Conta-Corrente";
 	}
 
-	@Override
-	public void gerarRedimento() {}
 
 }

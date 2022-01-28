@@ -36,7 +36,7 @@ public abstract class Conta implements IConta {
 		contaDestino.depositar(valor);
 	}
 
-	public abstract void gerarRedimento();
+
 
 
 }
