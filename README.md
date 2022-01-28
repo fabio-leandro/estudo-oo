@@ -12,6 +12,9 @@ acordo com o titular informado;</li>
 <li>Na classe conta foi criado o método abastrato gerarRendimento e as contas Poupanca e ContaAplicacao fazem a implementação desse método com as respectivas taxas de remuneração do saldo.</li>
 </dt>
 
+<h3>Refatoração 28/01/2022</h3>
+<p>Foi criada a Interface Rendimento. Essa interface possibilita que apenas as contas que fornecem o serviço de rendimento implmente o método gerarRendimento.</p>
+
 <p></p>
 
 
